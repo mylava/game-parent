@@ -45,9 +45,14 @@
 			<property name="enableSubPackages" value="true" />
 		</javaClientGenerator>
 		<!--生成对应表及类名 -->
-		<table tableName="ox_player" domainObjectName="Player" enableCountByExample="false"
+		<!--<table tableName="ox_player" domainObjectName="Player" enableCountByExample="false"
+			   enableUpdateByExample="false" enableDeleteByExample="false"
+			   enableSelectByExample="true" selectByExampleQueryId="false" />-->
+
+		<table tableName="ox_system_dict" domainObjectName="SystemDict" enableCountByExample="false"
 			   enableUpdateByExample="false" enableDeleteByExample="false"
 			   enableSelectByExample="true" selectByExampleQueryId="false" />
+
 	</context>
 </generatorConfiguration>
  

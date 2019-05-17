@@ -13,6 +13,8 @@ public class FooloxDataContext {
     private static boolean serverRunning = false;
 
     private static ApplicationContext applicationContext ;
+    //租户
+    public static String SYSTEM_ORGI = "foolox" ;
 
     public static ApplicationContext getApplicationContext() {
         return applicationContext;

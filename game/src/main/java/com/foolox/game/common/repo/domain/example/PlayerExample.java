@@ -926,72 +926,72 @@ public class PlayerExample {
         }
 
         public Criteria andInviteCodeIsNull() {
-            addCriterion("invite_Code is null");
+            addCriterion("invite_code is null");
             return (Criteria) this;
         }
 
         public Criteria andInviteCodeIsNotNull() {
-            addCriterion("invite_Code is not null");
+            addCriterion("invite_code is not null");
             return (Criteria) this;
         }
 
         public Criteria andInviteCodeEqualTo(String value) {
-            addCriterion("invite_Code =", value, "inviteCode");
+            addCriterion("invite_code =", value, "inviteCode");
             return (Criteria) this;
         }
 
         public Criteria andInviteCodeNotEqualTo(String value) {
-            addCriterion("invite_Code <>", value, "inviteCode");
+            addCriterion("invite_code <>", value, "inviteCode");
             return (Criteria) this;
         }
 
         public Criteria andInviteCodeGreaterThan(String value) {
-            addCriterion("invite_Code >", value, "inviteCode");
+            addCriterion("invite_code >", value, "inviteCode");
             return (Criteria) this;
         }
 
         public Criteria andInviteCodeGreaterThanOrEqualTo(String value) {
-            addCriterion("invite_Code >=", value, "inviteCode");
+            addCriterion("invite_code >=", value, "inviteCode");
             return (Criteria) this;
         }
 
         public Criteria andInviteCodeLessThan(String value) {
-            addCriterion("invite_Code <", value, "inviteCode");
+            addCriterion("invite_code <", value, "inviteCode");
             return (Criteria) this;
         }
 
         public Criteria andInviteCodeLessThanOrEqualTo(String value) {
-            addCriterion("invite_Code <=", value, "inviteCode");
+            addCriterion("invite_code <=", value, "inviteCode");
             return (Criteria) this;
         }
 
         public Criteria andInviteCodeLike(String value) {
-            addCriterion("invite_Code like", value, "inviteCode");
+            addCriterion("invite_code like", value, "inviteCode");
             return (Criteria) this;
         }
 
         public Criteria andInviteCodeNotLike(String value) {
-            addCriterion("invite_Code not like", value, "inviteCode");
+            addCriterion("invite_code not like", value, "inviteCode");
             return (Criteria) this;
         }
 
         public Criteria andInviteCodeIn(List<String> values) {
-            addCriterion("invite_Code in", values, "inviteCode");
+            addCriterion("invite_code in", values, "inviteCode");
             return (Criteria) this;
         }
 
         public Criteria andInviteCodeNotIn(List<String> values) {
-            addCriterion("invite_Code not in", values, "inviteCode");
+            addCriterion("invite_code not in", values, "inviteCode");
             return (Criteria) this;
         }
 
         public Criteria andInviteCodeBetween(String value1, String value2) {
-            addCriterion("invite_Code between", value1, value2, "inviteCode");
+            addCriterion("invite_code between", value1, value2, "inviteCode");
             return (Criteria) this;
         }
 
         public Criteria andInviteCodeNotBetween(String value1, String value2) {
-            addCriterion("invite_Code not between", value1, value2, "inviteCode");
+            addCriterion("invite_code not between", value1, value2, "inviteCode");
             return (Criteria) this;
         }
 
@@ -1245,63 +1245,63 @@ public class PlayerExample {
             return (Criteria) this;
         }
 
-        public Criteria andDeactivetimeIsNull() {
-            addCriterion("deactivetime is null");
+        public Criteria andDeactiveTimeIsNull() {
+            addCriterion("deactive_time is null");
             return (Criteria) this;
         }
 
-        public Criteria andDeactivetimeIsNotNull() {
-            addCriterion("deactivetime is not null");
+        public Criteria andDeactiveTimeIsNotNull() {
+            addCriterion("deactive_time is not null");
             return (Criteria) this;
         }
 
-        public Criteria andDeactivetimeEqualTo(Date value) {
-            addCriterion("deactivetime =", value, "deactivetime");
+        public Criteria andDeactiveTimeEqualTo(Date value) {
+            addCriterion("deactive_time =", value, "deactiveTime");
             return (Criteria) this;
         }
 
-        public Criteria andDeactivetimeNotEqualTo(Date value) {
-            addCriterion("deactivetime <>", value, "deactivetime");
+        public Criteria andDeactiveTimeNotEqualTo(Date value) {
+            addCriterion("deactive_time <>", value, "deactiveTime");
             return (Criteria) this;
         }
 
-        public Criteria andDeactivetimeGreaterThan(Date value) {
-            addCriterion("deactivetime >", value, "deactivetime");
+        public Criteria andDeactiveTimeGreaterThan(Date value) {
+            addCriterion("deactive_time >", value, "deactiveTime");
             return (Criteria) this;
         }
 
-        public Criteria andDeactivetimeGreaterThanOrEqualTo(Date value) {
-            addCriterion("deactivetime >=", value, "deactivetime");
+        public Criteria andDeactiveTimeGreaterThanOrEqualTo(Date value) {
+            addCriterion("deactive_time >=", value, "deactiveTime");
             return (Criteria) this;
         }
 
-        public Criteria andDeactivetimeLessThan(Date value) {
-            addCriterion("deactivetime <", value, "deactivetime");
+        public Criteria andDeactiveTimeLessThan(Date value) {
+            addCriterion("deactive_time <", value, "deactiveTime");
             return (Criteria) this;
         }
 
-        public Criteria andDeactivetimeLessThanOrEqualTo(Date value) {
-            addCriterion("deactivetime <=", value, "deactivetime");
+        public Criteria andDeactiveTimeLessThanOrEqualTo(Date value) {
+            addCriterion("deactive_time <=", value, "deactiveTime");
             return (Criteria) this;
         }
 
-        public Criteria andDeactivetimeIn(List<Date> values) {
-            addCriterion("deactivetime in", values, "deactivetime");
+        public Criteria andDeactiveTimeIn(List<Date> values) {
+            addCriterion("deactive_time in", values, "deactiveTime");
             return (Criteria) this;
         }
 
-        public Criteria andDeactivetimeNotIn(List<Date> values) {
-            addCriterion("deactivetime not in", values, "deactivetime");
+        public Criteria andDeactiveTimeNotIn(List<Date> values) {
+            addCriterion("deactive_time not in", values, "deactiveTime");
             return (Criteria) this;
         }
 
-        public Criteria andDeactivetimeBetween(Date value1, Date value2) {
-            addCriterion("deactivetime between", value1, value2, "deactivetime");
+        public Criteria andDeactiveTimeBetween(Date value1, Date value2) {
+            addCriterion("deactive_time between", value1, value2, "deactiveTime");
             return (Criteria) this;
         }
 
-        public Criteria andDeactivetimeNotBetween(Date value1, Date value2) {
-            addCriterion("deactivetime not between", value1, value2, "deactivetime");
+        public Criteria andDeactiveTimeNotBetween(Date value1, Date value2) {
+            addCriterion("deactive_time not between", value1, value2, "deactiveTime");
             return (Criteria) this;
         }
 
